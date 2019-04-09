@@ -54,7 +54,8 @@ public class MyApplication extends Application {
    		stage.setScene(scene);
    		stage.setTitle("Course Scraper");
    		stage.show();
-    		
+   		System.out.println("hello");
+	
 
 	}
 
@@ -65,6 +66,7 @@ public class MyApplication extends Application {
 	public static void main(String args[]) {
 		Application.launch(args);
 	}
-
+	
+	
 
 }
